@@ -1,0 +1,12 @@
+model_path: "/home/zkxq/develop/models_highway/engineer_truck_best.pt"
+split_arr: [[300,300], [500, 500]]
+task: detect
+conf_thres: 0.4
+iou_thres: 0.45
+overlap_percent1: 0   #用于多边形融合
+overlap_percent2: 0.4   #用于多边形去重
+sam_overlap_percent: 0.0
+polygon_threshold: 3 # 定义绘制多边形框的复杂度。值越高越简单
+area_range: [0,50]
+#class_dict: {0: 'engineer_truck' }
+class_dict: {0: '工程车辆' }

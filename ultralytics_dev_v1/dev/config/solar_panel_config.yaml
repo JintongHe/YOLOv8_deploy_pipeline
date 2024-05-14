@@ -1,0 +1,8 @@
+model_path: "/home/zkxq/develop/models/solar_panel.pt"
+out_file_path: "/home/zkxq/develop/data/real_estate"
+split_arr: [[1100, 1100], [1300, 1300], [1700, 1700], [2300, 2300]]
+device: [1, 2, 3]
+conf_thres: 0.3
+overlap_percent: 0.3
+polygon_threshold: 3 # 定义绘制多边形框的复杂度。值越高越简单
+class_dict: {0: '光伏面板', 1: '光伏支架'}
